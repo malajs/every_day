@@ -1,9 +1,19 @@
 // index.js
+import {Locale} from "vant";
+// 引入英文语言包
+import enUS from "vant/es/locale/lang/en-US";
 import {createI18n} from "vue-i18n";
 import en from "./en";
 import zh from "./zh";
 
-const messages = {
+Locale.use("en-US", enUS);
+
+let messages = {
+  "zh-CN": zh,
+  "en-US	": en,
+};
+Locale.add(messages);
+messages = {
   en,
   zh,
 };

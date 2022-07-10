@@ -1,3 +1,4 @@
+import "amfe-flexible";
 import "lib-flexible/flexible";
 import {
   ActionBar,
