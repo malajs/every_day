@@ -36,6 +36,7 @@ import {
 import "vant/lib/index.css"; // 全局引入样式
 import {createApp} from "vue";
 import App from "./App.vue";
+import "./common/style/mixin.less";
 import i18n from "./i18n/index";
 import router from "./router";
 import store from "./store";
